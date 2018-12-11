@@ -1,0 +1,28 @@
+{
+  "name": "moj-projekt",
+  "version": "1.0.0",
+  "description": "testowy projekt w celu sprawdzenia webpacka",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "dev": "webpack --mode development",
+    "prod": "webpack --mode production"
+  },
+  "author": "Mako",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^1.0.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "axios": "^0.18.0",
+    "uniqid": "^5.0.3"
+  }
+}

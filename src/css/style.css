@@ -1,0 +1,27 @@
+
+body {  }
+
+#body { 
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    opacity:0.1;
+    background:url('/images/bg.jpg') no-repeat; }
+
+img {  max-width: 100%;display: block;height: auto; }
+
+header h1 { margin-bottom:20px }
+
+.card-body a { color:#ffe100 !important; }
+.card-body span { display:block;font-weight:bold;font-size:12px;border:1px solid #000;margin-top:20px;cursor:pointer; }
+
+.removeItem { color:orange;cursor:pointer; }
+
+.cart_container  { margin:0;padding:0; }
+.cart_container  li { list-style:none;border-bottom:1px dotted #292929;margin-bottom:20px;padding-bottom:5px;  }
+.cart_container li b , .cart_container li span { display:block;margin-bottom:5px; }
+
+
+.updateQuantity { cursor:pointer; }
